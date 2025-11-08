@@ -1,6 +1,6 @@
 payload:
-  # 内容：Bing
-  # 数量：2条
+  # 内容：影视
+
   - DOMAIN,europe.olemovienews.com
   - DOMAIN,static.olelive.com
   - DOMAIN,www.olehdtv.com
@@ -9,6 +9,7 @@ payload:
   - DOMAIN,rankv21.iyf.tv
   - DOMAIN,m10.iyf.tv
   - DOMAIN-SUFFIX,iyf.tv
+  - DOMAIN,token.anygate.vip
 
 
 
