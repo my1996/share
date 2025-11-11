@@ -17,7 +17,16 @@ tcp-concurrent: true # TCP并发
 #interface-name: en0  # clash流量出站接口，即接口绑定
 find-process-mode: strict # 进程匹配（off:关闭，alwas:开启，strict自动），tun模式下无效
 #lan-allowed-ips: # 允许连接的客户端IP，默认允许全部
-
+#- 0.0.0.0/0
+#- ::/0
+#lan-disallowed-ips: # 禁止连接的IP，优先级高于allow白名单
+#- ~
+#authentication: # http(s)/socks/mixed 的用户验证，格式："user1:pass1"，不写则禁止全部用户
+#- ~
+#skip-auth-prefixes: # 白名单，允许跳过用户验证的IP
+#- ~
+#unified-delay: false # 统一延迟计算，没啥卵用，就是界面好看，会对延迟自动选择策略造成影响
+#routing-mark: 6666  # 非linux无效，路由标记，为流量提供标记以供其他应用进行流量处理
 
 ## TCP-KeepA-live配置 ------------------------------------------------------------------------------------------
 keep-alive-idle: 30 # 触发心跳包的链路无活动阈值，无活动后发送心跳包检测对端是否存活
@@ -189,23 +198,23 @@ proxy-providers-general: &proxy-providers-general # 代理提供者通用配置
     #up: "10 Mbps" # 上行限速
     ip-version: dual # 可选dual/ipv4/ipv6/ipv4-prefer/ipv6-prefer，即优先v4或v6，仅v4或v6
 
-#订阅链接
 proxy-providers:  
   provider1:
     <<: *proxy-providers-general  # 引用上文的yaml锚点
-    url: "" #机场订阅链接
+    url: ""
     override:  #可选，覆写设置，不需要可以删除
       additional-prefix: "lxy|"  # 可选，给订阅添加前缀，不需要可以删除
     path: ./providers/proxy/proxy-lxy.yaml  # 可选，指定下载路径，不需要可以删除
 
   provider2:
     <<: *proxy-providers-general  # 引用上文的yaml锚点
-    url: "" #机场订阅链接
+    url: ""
     override:  #可选，覆写设置，不需要可以删除
       additional-prefix: "yfjc|"  # 可选，给订阅添加前缀，不需要可以删除
     path: ./providers/proxy/proxy-yfjc.yaml  # 可选，指定下载路径，不需要可以删除
 
   #❗provider占位3
+  #❗provider占位4
 
 
 ## 代理组设置---------------------------------------------------------------------------------------------------
@@ -214,8 +223,9 @@ use-all-proxy-providers: &use-all-proxy-providers # 代理组通用配置
     - provider1
     - provider2
     
+    #❗use-provider占位2
     #❗use-provider占位3
-
+    #❗use-provider占位4
 
 health-check-general: &health-check-general # 代理组健康检查通用配置
   <<: *use-all-proxy-providers
@@ -344,9 +354,10 @@ proxy-groups:
     <<: *default-proxy
     icon: https://ghfast.top/https://github.com/refined-fish/clash_rule_fish/blob/main/Icons/Telegram.png
 
-  - name: movie
+  - name: 📽️movie📽️
     type: select
     <<: *default-proxy
+    icon: https://ghfast.top/https://github.com/my1996/share/blob/main/movie.png
 
 
   ##################################
@@ -375,9 +386,9 @@ rule-providers:
     url: https://raw.githubusercontent.com/refined-fish/clash_rule_fish/refs/heads/main/Ruleset/Ⓜ️微软Copilot-FISH.yaml
     path: ./providers/rule/rule-provider_Ⓜ️微软Copilot-FISH.yaml
 
-  yingshi:
+  📽️yingshi:
     <<: *rule-providers-general
-    url: https://raw.githubusercontent.com/my1996/share/refs/heads/main/yingshi.yaml
+    url: https://raw.githubusercontent.com/my1996/share/refs/heads/main/🎥yingshi.yaml
     path: ./providers/rule/rule-provider_yingshi.yaml
 
 
@@ -385,7 +396,7 @@ rule-providers:
 rules:
   #### 对于必须直连者直接使用direct写死，其他尽可能使用代理组以方便面板控制以及切换测试
   # 影视
-  - RULE-SET,yingshi,movie
+  - RULE-SET,📽️yingshi,📽️movie📽️
   # FISH自定义规则块
   - RULE-SET,♻️延迟最低-FISH,✅默认代理 # FISH自定义代理
   - RULE-SET,🌐Direct-FISH,🌐默认直连 # FISH自定义直连
