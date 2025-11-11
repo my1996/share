@@ -9,6 +9,7 @@ payload:
   - DOMAIN,rankv21.iyf.tv
   - DOMAIN,m10.iyf.tv
   - DOMAIN-SUFFIX,iyf.tv
+  - DOMAIN-keyword,ole
   - DOMAIN,token.anygate.vip
 
 
