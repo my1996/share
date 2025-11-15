@@ -1,9 +1,11 @@
 payload:
   # 内容：影视
-
-  - DOMAIN,europe.olemovienews.com
+  
   - DOMAIN,static.olelive.com
   - DOMAIN,www.olehdtv.com
+  - DOMAIN,new.olevod.com
+  - DOMAIN,europe.olemovienews.com
+  - DOMAIN-suffix,olevod.com
   - DOMAIN,www.iyf.tv
   - DOMAIN,static.iyf.tv
   - DOMAIN,rankv21.iyf.tv
