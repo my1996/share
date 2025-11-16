@@ -12,6 +12,7 @@ payload:
   - DOMAIN,m10.iyf.tv
   - DOMAIN-SUFFIX,iyf.tv
   - DOMAIN-keyword,ole
+  - DOMAIN-keyword,s111-e1
   - DOMAIN,token.anygate.vip
   - DOMAIN-suffix,bilibili.tv
 
