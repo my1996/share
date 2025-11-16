@@ -381,17 +381,17 @@ rule-providers:
     url: https://raw.githubusercontent.com/refined-fish/clash_rule_fish/refs/heads/main/Ruleset/🌐Direct-FISH.yaml
     path: ./providers/rule/rule-provider_🌐Direct-FISH.yaml
 
+  
   Ⓜ️微软Copilot-FISH:
     <<: *rule-providers-general
-    url: https://raw.githubusercontent.com/refined-fish/clash_rule_fish/refs/heads/main/Ruleset/Ⓜ️微软Copilot-FISH.yaml
+    url: https://raw.githubusercontent.com/my1996/share/refs/heads/main/rule/Ⓜ️微软Copilot-FISH.yaml
     path: ./providers/rule/rule-provider_Ⓜ️微软Copilot-FISH.yaml
 
   📽️yingshi:
     <<: *rule-providers-general
-    url: https://raw.githubusercontent.com/my1996/share/refs/heads/main/🎥yingshi.yaml
-    path: ./providers/rule/rule-provider_yingshi.yaml
-
-
+    url: https://raw.githubusercontent.com/my1996/share/refs/heads/main/rule/🎥yingshi.yaml
+  
+  
 ## 路由规则设置---------------------------------------------------------------------------------------------------
 rules:
   #### 对于必须直连者直接使用direct写死，其他尽可能使用代理组以方便面板控制以及切换测试
