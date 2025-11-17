@@ -15,6 +15,7 @@ payload:
   - DOMAIN-keyword,s111-e1
   - DOMAIN,token.anygate.vip
   - DOMAIN-suffix,bilibili.tv
+  - DOMAIN-SUFFIX,immersivetranslate.com
 
 
 
