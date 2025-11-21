@@ -1,13 +1,17 @@
 payload:
   # 内容：影视、非知名网站
-  
-#  - DOMAIN,static.olelive.com
-#  - DOMAIN,www.olehdtv.com
-#  - DOMAIN,new.olevod.com
-#  - DOMAIN,europe.olemovienews.com
-#  - DOMAIN,api.olelive.com
-#  - DOMAIN-suffix,olevod.com
+
+
+# 欧乐影视 网站
+  - DOMAIN,static.olelive.com
+  - DOMAIN,www.olehdtv.com
+  - DOMAIN,new.olevod.com
+  - DOMAIN,europe.olemovienews.com
+  - DOMAIN,api.olelive.com
+  - DOMAIN-suffix,olevod.com
   - DOMAIN-keyword,ole
+  
+ # 爱壹帆 影视网站 
   - DOMAIN,www.iyf.tv
   - DOMAIN,static.iyf.tv
   - DOMAIN,rankv21.iyf.tv
@@ -15,7 +19,15 @@ payload:
   - DOMAIN-SUFFIX,iyf.tv
   - DOMAIN-keyword,s111-e1
   - DOMAIN,token.anygate.vip
+
+# 哔哩哔哩 国际版
   - DOMAIN-suffix,bilibili.tv
+
+# twitch 直播平台
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-KEYWORD,tvnw
+  
+# 沉浸式翻译插件  
  # - DOMAIN-SUFFIX,immersivetranslate.com
 
 
