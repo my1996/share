@@ -1,7 +1,15 @@
 payload:
-  # 内容：Bing
-  # 数量：2条
+  # 内容：常用网址
+  # 数量： 条
+
+#microsoft copilot 
   - DOMAIN,www.bing.com # 网页搜索AI，不具备对话功能
   - DOMAIN,copilot.cloud.microsoft # 微软企业/组织Copilot，个人账号无法使用
   - DOMAIN,copilot.microsoft.com # 微软个人账户Copilot，可在Windows任务栏/浏览器侧边栏启动
+
+#notion  
   - DOMAIN-KEYWORD,notion
+
+#Claude 
+  - DOMAIN,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
