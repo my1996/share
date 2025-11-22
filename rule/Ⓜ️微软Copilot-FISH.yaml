@@ -11,9 +11,11 @@ payload:
   - DOMAIN-KEYWORD,notion
 
 #Claude 
-  - DOMAIN,claude.ai
+  - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
-
+  - DOMAIN-KEYWORD,claude
+  - DOMAIN-SUFFIX,usefathom.com
+  
 #github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,githubassets.com
