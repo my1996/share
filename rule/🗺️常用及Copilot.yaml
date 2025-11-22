@@ -6,6 +6,19 @@ payload:
   - DOMAIN,www.bing.com # 网页搜索AI，不具备对话功能
   - DOMAIN,copilot.cloud.microsoft # 微软企业/组织Copilot，个人账号无法使用
   - DOMAIN,copilot.microsoft.com # 微软个人账户Copilot，可在Windows任务栏/浏览器侧边栏启动
+  - DOMAIN,edge.microsoft.com
+
+  - DOMAIN-SUFFIX  , ecs.office.com                       # MicroSoft Designer 基础功能 （非必要？）
+  - DOMAIN-SUFFIX  , designer.microsoft.com               # MicroSoft Designer 基础功能
+  - DOMAIN-SUFFIX  , designerapp.osi.office.net           # MicroSoft Designer 基础功能
+  - DOMAIN-SUFFIX  , designerapp.officeapps.live.com      # MicroSoft Designer 基础功能
+
+  - DOMAIN         , www.bing.com                         # MicroSoft Bing 基础功能            
+  - DOMAIN         , sydney.bing.com                      # MicroSoft Bing 基础功能
+  - DOMAIN         , edgeservices.bing.com                # MicroSoft Bing 基础功能         
+  #- DOMAIN         , r.bing.com                           # MicroSoft Bing 基础功能
+  - DOMAIN         , www.bingapis.com   
+  - DOMAIN          ,th.bing.com
 
 #notion  
   - DOMAIN-KEYWORD,notion
