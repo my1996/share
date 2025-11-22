@@ -13,3 +13,9 @@ payload:
 #Claude 
   - DOMAIN,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
+
+#github
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-KEYWORD,github
+  
