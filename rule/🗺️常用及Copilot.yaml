@@ -10,8 +10,8 @@ payload:
   - DOMAIN,sydney.bing.com                      # MicroSoft Bing 基础功能-Bing Copilot 对话服务
   - DOMAIN,edgeservices.bing.com                # MicroSoft Bing 基础功能-Copilot 辅助服务      
   - DOMAIN-SUFFIX,bingapis.com                  # Bing API 服务
-  - DOMAIN,th.bing.com
-  - DOMAIN,designer.microsoft.com
+  #- DOMAIN,th.bing.com
+  - DOMAIN,designer.microsoft.com               #Copilot 设计功能相关
 
 #notion  
   - DOMAIN-KEYWORD,notion
