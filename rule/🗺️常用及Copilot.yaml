@@ -9,8 +9,9 @@ payload:
   #- DOMAIN,edge.microsoft.com     
   - DOMAIN,sydney.bing.com                      # MicroSoft Bing 基础功能
   - DOMAIN,edgeservices.bing.com                # MicroSoft Bing 基础功能         
-  - DOMAIN,www.bingapis.com   
+  - DOMAIN-SUFFIX,bingapis.com   
   - DOMAIN,th.bing.com
+  - DOMAIN,designer.microsoft.com
 
 #notion  
   - DOMAIN-KEYWORD,notion
