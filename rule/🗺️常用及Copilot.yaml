@@ -30,6 +30,7 @@ payload:
   - DOMAIN-KEYWORD,groq
   
 #chatbox api
+  - DOMAIN,generativelanguage.googleapis.com
   - DOMAIN-KEYWORD,gemini
   
 #lobechat
