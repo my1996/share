@@ -9,7 +9,6 @@ payload:
   - DOMAIN,europe.olemovienews.com
   - DOMAIN,api.olelive.com
   - DOMAIN-suffix,olevod.com
-  - DOMAIN-keyword,ole
   - DOMAIN-SUFFIX,plyr.io
   
  # 爱壹帆 影视网站 
