@@ -31,7 +31,7 @@ payload:
   
 #chatbox api
   - DOMAIN,generativelanguage.googleapis.com
-  - DOMAIN,api.chatboxai.app
+  - DOMAIN-SUFFIX,chatboxai.app
   - DOMAIN-KEYWORD,gemini
   
 #lobechat
