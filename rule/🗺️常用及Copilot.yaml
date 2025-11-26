@@ -23,7 +23,18 @@ payload:
   - DOMAIN-SUFFIX,usefathom.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN,api.honeycomb.io
+
+
+#groq
+  - DOMAIN-KEYWORD,groq
   
+#chatbox api
+  - DOMAIN-KEYWORD,gemini
+  
+#lobechat
+  - DOMAIN-KEYWORD,lobechat
+
+
 #github
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,githubassets.com
