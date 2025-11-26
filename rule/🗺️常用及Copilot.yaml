@@ -26,6 +26,7 @@ payload:
 
 
 #groq
+  - DOMAIN,api.groq.com
   - DOMAIN-KEYWORD,groq
   
 #chatbox api
