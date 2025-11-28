@@ -1,4 +1,3 @@
 payload:
   # 内容：拒绝联网
   - DOMAIN,aks-prod-japaneast.access-point.cloudmessaging.edge.microsoft.com
-  # - DOMAIN,www.baidu.com
