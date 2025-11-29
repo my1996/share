@@ -3,3 +3,7 @@ payload:
   - DOMAIN,aks-prod-japaneast.access-point.cloudmessaging.edge.microsoft.com
   - domain,access-point.cloudmessaging.edge.microsoft.com
   - domain-suffix,anygate.vip
+
+#alipay 网络反馈、埋点链接
+  - domain,tracert.alipay.com
+  - domain,render.alipay.com
