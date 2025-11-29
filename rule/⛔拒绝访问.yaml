@@ -2,3 +2,4 @@ payload:
   # 内容：拒绝联网
   - DOMAIN,aks-prod-japaneast.access-point.cloudmessaging.edge.microsoft.com
   - domain,access-point.cloudmessaging.edge.microsoft.com
+  - domain-suffix,anygate.vip
