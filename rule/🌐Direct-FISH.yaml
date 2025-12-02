@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,immersivetranslate.com
   #蚂蚁金服-灵光
   - domain,www.lingguang.com
+  - domain-suffix,lingguang.com
 
   # CN域名
   - DOMAIN-SUFFIX,api.ipify.org # ip查询
