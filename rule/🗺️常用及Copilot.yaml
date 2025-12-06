@@ -37,6 +37,11 @@ payload:
 #lobechat
   - DOMAIN-KEYWORD,lobechat
 
+#huggingface
+  - domain,router.huggingface.co
+  - domain-suffix,huggingface.co
+  - domain-keyword,huggingface
+
 
 #github
   - DOMAIN-SUFFIX,github.com
