@@ -42,6 +42,10 @@ payload:
   - domain-suffix,huggingface.co
   - domain-keyword,huggingface
 
+#OpenRouter
+  - domain,openrouter.ai
+  - domain-keyword,openrouter
+
 
 #github
   - DOMAIN-SUFFIX,github.com
