@@ -52,3 +52,33 @@ payload:
   - DOMAIN-SUFFIX,githubassets.com
   - DOMAIN-KEYWORD,github
   
+#ARC浏览器同步功能
+  #Arc 核心云服务
+  - DOMAIN-SUFFIX,arc.net
+  - DOMAIN,api.arc.net
+  - DOMAIN,resources.arc.net
+  - DOMAIN,releases.arc.net
+  #Google Firebase 同步基础
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,firebase.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN,identitytoolkit.googleapis.com
+  - DOMAIN,securetoken.googleapis.com
+  #浏览器组件与扩展更新
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN,update.googleapis.com
+  - DOMAIN,clients2.google.com
+  #关键词匹配
+  - DOMAIN-KEYWORD,arc
+
+
+
+
+
+
+
+
+
+
+  
