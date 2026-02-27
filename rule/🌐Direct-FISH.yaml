@@ -3,7 +3,7 @@ payload:
 
   #################### 杂项
   #沉浸式翻译插件
-  - DOMAIN-SUFFIX,immersivetranslate.com
+  #- DOMAIN-SUFFIX,immersivetranslate.com
   #蚂蚁金服-灵光
   - domain,www.lingguang.com
   - domain-suffix,lingguang.com
