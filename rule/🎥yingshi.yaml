@@ -23,6 +23,10 @@ payload:
   - DOMAIN-keyword,s1-e1
   - DOMAIN,token.anygate.vip
 
+# 华人影视
+  - domain-keyword,huaren
+  - domain-keyword,yanetflix
+
 # 哔哩哔哩 国际版
   - DOMAIN-suffix,bilibili.tv
 
