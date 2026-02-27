@@ -1,6 +1,8 @@
 payload:
   # 内容：影视、非知名网站，为省流而生。
 
+  #沉浸式翻译插件
+  - DOMAIN-SUFFIX,immersivetranslate.com
 
 # 欧乐影视 网站
   - DOMAIN,static.olelive.com
