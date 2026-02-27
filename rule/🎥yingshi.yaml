@@ -26,6 +26,8 @@ payload:
 # 华人影视
   - domain-keyword,huaren
   - domain-keyword,yanetflix
+  - domain-keyword,okokserver
+  - domain-keyword,blockify
 
 # 哔哩哔哩 国际版
   - DOMAIN-suffix,bilibili.tv
