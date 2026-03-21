@@ -7,9 +7,11 @@ payload:
   #蚂蚁金服-灵光
   - domain,www.lingguang.com
   - domain-suffix,lingguang.com
-#美团大模型龙猫
+  #美团大模型龙猫
   - domain,api.longcat.chat
   - domain-suffix,longcat.chat
+  #阶跃AI
+  - domain-suffix,stepfun.com
 
 
 #######################_###################
