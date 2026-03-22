@@ -35,6 +35,7 @@ payload:
 # twitch 直播平台
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-KEYWORD,tvnw
+  - DOMAIN-KEYWORD,twitch
   
 # 沉浸式翻译插件  
  # - DOMAIN-SUFFIX,immersivetranslate.com
