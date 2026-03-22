@@ -36,6 +36,8 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-KEYWORD,tvnw
   - DOMAIN-KEYWORD,twitch
+  - DOMAIN-KEYWORD,hls.live-video
+  - DOMAIN-KEYWORD,hls
   
 # 沉浸式翻译插件  
  # - DOMAIN-SUFFIX,immersivetranslate.com
