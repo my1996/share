@@ -15,7 +15,8 @@ payload:
   #CCTV
   - domain-keyword,cctv
   #阿里云百炼
-  -domain,dashscope.aliyuncs.com
+  - domain,dashscope.aliyuncs.com
+  - domain-suffix,aliyuncs.com
 
 
 #######################_###################
