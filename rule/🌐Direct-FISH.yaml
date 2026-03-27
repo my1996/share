@@ -12,6 +12,8 @@ payload:
   - domain-suffix,longcat.chat
   #阶跃AI
   - domain-suffix,stepfun.com
+  #CCTV
+  - domain-keyword,cctv
 
 
 #######################_###################
